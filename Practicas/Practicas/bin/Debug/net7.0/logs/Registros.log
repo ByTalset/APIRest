@@ -1,0 +1,746 @@
+2023-06-27 17:10:42,358 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-27 17:10:42,368 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-27 17:10:42,370 [1]  INFO - Hosting environment: Development
+ 2023-06-27 17:10:42,371 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-27 17:10:47,125 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-27 17:10:47,168 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-27 17:10:47,169 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-27 17:12:20,038 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-27 17:12:20,056 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-27 17:12:20,060 [1]  INFO - Hosting environment: Development
+ 2023-06-27 17:12:20,063 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-27 17:12:25,989 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-27 17:12:26,022 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-27 17:12:26,028 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-27 17:57:51,413 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-27 17:57:51,427 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-27 17:57:51,431 [1]  INFO - Hosting environment: Development
+ 2023-06-27 17:57:51,459 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-27 17:58:19,186 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentException: IDX12401: Expires: '27/06/2023 05:59:18 p. m.' must be after NotBefore: '27/06/2023 11:58:18 p. m.'.
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.AddFirstPriorityClaims(String issuer, String audience, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtPayload..ctor(String issuer, String audience, IEnumerable`1 claims, IDictionary`2 claimsCollection, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-27 18:00:27,905 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-27 18:00:27,918 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-27 18:00:27,921 [1]  INFO - Hosting environment: Development
+ 2023-06-27 18:00:27,924 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-27 18:00:52,205 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentException: IDX12401: Expires: '27/06/2023 06:01:52 p. m.' must be after NotBefore: '28/06/2023 12:00:52 a. m.'.
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.AddFirstPriorityClaims(String issuer, String audience, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtPayload..ctor(String issuer, String audience, IEnumerable`1 claims, IDictionary`2 claimsCollection, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:12:18,218 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:12:18,268 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:12:18,271 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:12:18,273 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:12:51,124 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentException: IDX12401: Expires: '28/06/2023 09:13:50 a. m.' must be after NotBefore: '28/06/2023 03:12:50 p. m.'.
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.AddFirstPriorityClaims(String issuer, String audience, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtPayload..ctor(String issuer, String audience, IEnumerable`1 claims, IDictionary`2 claimsCollection, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:16:18,450 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:16:18,469 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:16:18,473 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:16:18,493 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:16:36,860 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentException: IDX12401: Expires: '28/06/2023 09:19:36 a. m.' must be after NotBefore: '28/06/2023 03:16:36 p. m.'.
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.AddFirstPriorityClaims(String issuer, String audience, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtPayload..ctor(String issuer, String audience, IEnumerable`1 claims, IDictionary`2 claimsCollection, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:18:24,741 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:18:24,756 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:18:24,770 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:18:24,772 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:18:44,893 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentException: IDX12401: Expires: '28/06/2023 09:21:44 a. m.' must be after NotBefore: '28/06/2023 03:18:44 p. m.'.
+   at System.IdentityModel.Tokens.Jwt.JwtPayload.AddFirstPriorityClaims(String issuer, String audience, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtPayload..ctor(String issuer, String audience, IEnumerable`1 claims, IDictionary`2 claimsCollection, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:19:54,886 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:19:54,899 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:19:54,902 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:19:54,917 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:20:15,933 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:22:03,505 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:22:03,519 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:22:03,534 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:22:03,538 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:22:25,939 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'A128CBC-HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:24:20,174 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:24:20,193 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:24:20,197 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:24:20,200 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:24:40,300 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'A128CBC-HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:25:25,791 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:25:25,805 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:25:25,807 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:25:25,810 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:25:56,486 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'A128CBC-HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:26:31,905 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:26:31,921 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:26:31,923 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:26:31,926 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:26:47,718 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:27:38,779 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:27:38,800 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:27:38,804 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:27:38,808 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:28:02,523 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:33:20,790 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:33:20,811 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:33:20,815 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:33:20,818 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:33:46,241 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:34:20,288 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:34:20,317 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:34:20,328 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:34:20,334 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:34:35,828 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:35:44,220 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:35:44,233 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:35:44,236 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:35:44,239 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:36:00,980 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:37:09,437 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:37:09,450 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:37:09,453 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:37:09,455 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:37:23,552 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:39:35,652 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:39:35,665 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:39:35,668 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:39:35,683 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:39:50,307 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:40:50,671 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:40:50,684 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:40:50,687 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:40:50,689 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:41:07,119 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'A128CBC-HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:45:46,991 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:45:47,008 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:45:47,011 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:45:47,014 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:46:08,676 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'A128CBC-HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:58:24,981 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:58:25,004 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:58:25,007 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:58:25,021 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 09:58:46,854 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', is of size: '56'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at Practicas.Controllers.UsersController.InicioSesion(SolicitudUsers users) in C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas\Controllers\UsersController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 09:59:30,185 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 09:59:30,198 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 09:59:30,201 [1]  INFO - Hosting environment: Development
+ 2023-06-28 09:59:30,214 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:00:06,721 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 10:00:06,746 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 10:00:06,755 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 10:00:17,200 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:00:17,225 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:00:17,229 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:00:17,232 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:00:23,669 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 10:00:23,678 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 10:00:23,684 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 10:00:25,711 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 10:00:25,718 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 10:00:25,722 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 10:01:19,409 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:01:19,426 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:01:19,429 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:01:19,432 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:04:35,493 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:04:35,510 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:04:35,513 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:04:35,566 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:14:14,238 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:14:14,252 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:14:14,266 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:14:14,269 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:17:00,010 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:17:00,031 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:17:00,035 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:17:00,039 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:17:12,754 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:17:12,774 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:17:12,777 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:17:12,780 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:17:47,773 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:17:47,803 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:17:47,832 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:17:47,845 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 10:56:10,805 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 10:56:10,818 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 10:56:10,821 [1]  INFO - Hosting environment: Development
+ 2023-06-28 10:56:10,823 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 11:03:52,466 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 11:03:52,539 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 11:03:52,542 [1]  INFO - Hosting environment: Development
+ 2023-06-28 11:03:52,545 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 11:21:37,872 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 11:21:37,887 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 11:21:37,891 [1]  INFO - Hosting environment: Development
+ 2023-06-28 11:21:37,893 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 11:21:42,122 [.NET ThreadPool Worker] ERROR - An unhandled exception has occurred while executing the request.
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST Login" for actions - Practicas.Controllers.LoggingController.InicioSesion (Practicas),Practicas.Controllers.UsersController.InicioSesion (Practicas). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-06-28 11:23:17,955 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 11:23:17,968 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 11:23:17,971 [1]  INFO - Hosting environment: Development
+ 2023-06-28 11:23:17,974 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 11:27:23,199 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 11:27:23,222 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 11:27:23,228 [1]  INFO - Hosting environment: Development
+ 2023-06-28 11:27:23,230 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 11:30:19,583 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 11:30:19,604 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 11:30:19,616 [1]  INFO - Hosting environment: Development
+ 2023-06-28 11:30:19,619 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 11:30:29,321 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 11:30:29,340 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 11:30:29,370 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 11:33:46,247 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 11:33:46,251 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 11:33:46,262 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 11:38:48,999 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 11:38:49,010 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 11:38:49,015 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 11:47:46,905 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 11:47:46,936 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 11:47:46,939 [1]  INFO - Hosting environment: Development
+ 2023-06-28 11:47:46,947 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 11:48:32,039 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 11:48:32,055 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 11:48:32,060 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 11:51:22,058 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 11:51:22,062 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 11:51:22,072 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 12:02:32,483 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 12:02:32,487 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 12:02:32,496 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 12:05:20,726 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 12:05:20,742 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 12:05:20,745 [1]  INFO - Hosting environment: Development
+ 2023-06-28 12:05:20,748 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 12:07:15,784 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 12:07:15,794 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 12:07:15,800 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 12:43:51,225 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 12:43:51,239 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 12:43:51,243 [1]  INFO - Hosting environment: Development
+ 2023-06-28 12:43:51,246 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 12:49:43,204 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 12:49:43,214 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 12:49:43,218 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 12:50:25,280 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 12:50:25,287 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 12:50:25,294 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 13:10:38,810 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:10:38,826 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:10:38,829 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:10:38,832 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:14:40,133 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:14:40,151 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:14:40,155 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:14:40,158 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:19:48,362 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:19:48,375 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:19:48,378 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:19:48,381 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:22:58,143 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:22:58,156 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:22:58,159 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:22:58,162 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:24:35,879 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:24:35,892 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:24:35,894 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:24:35,897 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:28:31,332 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:28:31,358 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:28:31,363 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:28:31,368 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:41:58,721 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:41:58,736 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:41:58,829 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:41:58,839 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:50:23,912 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:50:23,933 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:50:23,939 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:50:23,944 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:55:19,566 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:55:19,580 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:55:19,583 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:55:19,585 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:58:01,508 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 13:58:01,529 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 13:58:01,532 [1]  INFO - Hosting environment: Development
+ 2023-06-28 13:58:01,536 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 13:58:07,866 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 13:58:07,920 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 13:58:07,923 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 14:00:17,608 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 14:00:17,618 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 14:00:17,625 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 14:57:42,845 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 14:57:42,872 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 14:57:42,876 [1]  INFO - Hosting environment: Development
+ 2023-06-28 14:57:42,882 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 14:58:05,370 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 14:58:05,384 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 14:58:05,389 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 15:00:17,573 [.NET ThreadPool Worker]  INFO - Esta es una informacion relevante
+ 2023-06-28 15:00:17,580 [.NET ThreadPool Worker]  WARN - ¡Cuidado esto es una advertencia!
+ 2023-06-28 15:00:17,587 [.NET ThreadPool Worker] ERROR - Se produjo un error
+ 2023-06-28 15:02:32,342 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 15:02:32,359 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 15:02:32,362 [1]  INFO - Hosting environment: Development
+ 2023-06-28 15:02:32,365 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 2023-06-28 15:44:27,740 [1]  INFO - Now listening on: http://localhost:5293
+ 2023-06-28 15:44:27,782 [1]  INFO - Application started. Press Ctrl+C to shut down.
+ 2023-06-28 15:44:27,785 [1]  INFO - Hosting environment: Development
+ 2023-06-28 15:44:27,791 [1]  INFO - Content root path: C:\Users\Alopezc\Downloads\.Net\Soluciones\Practicas\Practicas
+ 
